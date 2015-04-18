@@ -1,0 +1,11 @@
+{
+  "name": "site-extension",
+  "description": "A React Site Extension",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "wixLongDescription": "A React Site Extension"
+}
+

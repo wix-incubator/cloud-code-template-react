@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wix Code Widget Starter React</title>
+    <script src="https://fb.me/react-0.13.1.js"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.1.js"></script>
+    <style>
+	    .starter-template {
+	        padding: 20px 15px;
+	        text-align: center;
+	    }
+	
+	    body {
+	        background-color: black;
+	        color: white;
+	    }
+	
+	    .lead {
+	        font-size: 11pt;
+	    }
+	
+	    .logo {
+	        font-size: 36px;
+	    }
+    </style>
+</head>
+<body>
+	<div id="container"></div>
+	
+    <script type="text/jsx">
+      	var StartupTemplate = React.createClass({displayName: 'StartupTemplate',
+		  render: function() {
+		    return (
+		    	<div className="starter-template">
+			        <h1 className="logo">
+			            <img src="http://static.wixstatic.com/media/ca3926_3e4a225bb3c34c09b0597a9b4e9a7ea2.png">
+			            Starter</img>
+			        </h1>
+			
+			        <p className="lead">
+						{this.props.message}
+			        </p>
+			    </div>
+		    );
+		  }
+		});
+		React.render(
+		  React.createElement(StartupTemplate, {message: "Use this widget to quickly start with some React"}),
+		  document.getElementById('container')
+		);
+    </script>
+    
+	<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.39.0/js/wix.min.js"></script>
+</body>
+</html>
+
