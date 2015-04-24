@@ -1,11 +1,11 @@
 {
-  "name": "site-extension",
-  "description": "A React Site Extension",
+  "name": "reactjs",
+  "description": "ReactJS Sample",
   "private": true,
   "dependencies": {
   },
   "devDependencies": {
   },
-  "wixLongDescription": "A React Site Extension"
+  "wixLongDescription": "A ReactJS boilerplate"
 }
 
