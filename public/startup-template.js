@@ -1,7 +1,7 @@
 export default React.createClass({
 	displayName: 'StartupTemplate',
 	render: function () {
-		return ( < p class = "container-text" > {
+		return ( < p className = "container-text" > {
 			this.props.message
 		} < /p>);
 	}
